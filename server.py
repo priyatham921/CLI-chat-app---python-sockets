@@ -1,6 +1,6 @@
 import socket
 s = socket.socket()         
-s.bind(('192.168.0.166', 8090))
+s.bind(('127.0.0.1', 8090))#192.168.0.166
 s.listen(0)                 
  
 while True:

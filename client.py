@@ -5,7 +5,7 @@ host = '127.0.0.1'
 port = 8090
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.bind('127.0.0.1',5555)
+client.bind(('127.0.0.1',5555))
 
 client.connect((host,port))
 
